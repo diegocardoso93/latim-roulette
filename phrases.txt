@@ -1,4 +1,3 @@
-
 a maiore ad minus
 a minore ad maius
 A solis ortu usque ad occasum
@@ -176,7 +175,7 @@ arduus ad solem
 argentum album
 arguendo
 argumentum
-  armata potentia
+armata potentia
 ars celare artem
 ars gratia artis
 ars longa, vita brevis
@@ -318,8 +317,6 @@ cogito ergo sum
 coitus interruptus
 coitus more ferarum
 collige virgo rosas
-Exhortation to enjoy fully the youth, similar to Carpe diem, from "De rosis nascentibus" (also titled "Idyllium de rosis"), attributed to Ausonius or Virgil.[15]
-
 combinatio nova
 communibus annis
 communibus locis
@@ -460,7 +457,6 @@ Deo non fortuna
 Deo optimo maximo (DOM)
 Deo patriae litteris
 Deo regi vicino
-
 Deo volente
 descensus in cuniculi cavum
 desiderantes meliorem patriam
@@ -797,16 +793,12 @@ hypotheses non fingo
 I, Vitelli, dei Romani sono belli
 ibidem (ibid.)
 id est (i.e.)
-
 id quod plerumque accidit
 idem (id.)
 idem quod (i.q.)
 Idus Martiae
 Jesu juva (J.J.)
-
 Iesus Nazarenus Rex Iudaeorum (INRI)
-From Vulgate; John 19:19. John 19:20 states that this inscription was written in three languages—Aramaic, Latin and Greek—at the top of the cross during the crucifixion of Jesus.
-
 igitur qui desiderat pacem, praeparet bellum
 igne natura renovatur integra
 igni ferroque
@@ -851,7 +843,6 @@ in foro
 in girum imus nocte et consumimur igni
 in harmonia progressio
 in hoc sensu or in sensu hoc (s.h.)
-
 in hoc signo vinces
 in hunc effectum
 in ictu oculi
@@ -872,7 +863,6 @@ in nocte consilium
 in nomine diaboli
 in nomine Domini
 in nomine patris, et filii, et spiritus sancti
-
 in nuce
 in odium fidei
 in omnia paratus
@@ -890,7 +880,6 @@ in propria persona
 in principio erat Verbum
 in re
 in rebus
-
 in regione caecorum rex est luscus
 in rem
 in rerum natura
@@ -968,7 +957,6 @@ iter legis
 iucunda memoria est praeteritorum malorum
 iugulare mortuos
 iuncta iuvant
-
 iura novit curia
 iure matris
 iure uxoris
@@ -1309,23 +1297,7 @@ non vi, sed verbo
 nosce te ipsum
 noscitur a sociis
 noster nostri
-Nota bene (NB, n.b. or 
-  
-    
-      
-        
-          N
-        
-        
-        
-        
-          B
-        
-      
-    
-    {\displaystyle \mathrm {N} \!\!\mathrm {B} }
-  
-)
+Nota bene (NB)
 novus ordo seclorum
 nulla dies sine linea
 nulla dies umquam memori vos eximet aevo
@@ -1457,8 +1429,6 @@ Pax Romana
 Pax Sinica
 pax tecum
 Pax tibi, Marce, Evangelista meus. Hic requiescet corpus tuum.
-Legend states that when the evangelist went to the lagoon where Venice would later be founded, an angel came and said this.[89] The first part is depicted as the note in the book shown opened by the lion of St Mark's Basilica, Venice; registered trademark of the Assicurazioni Generali, Trieste.[90]
-
 pax vobiscum
 peccavi
 pecunia non olet
@@ -2027,8 +1997,6 @@ ubi solitudinem faciunt pacem appellant
 ubi sunt?
 ubique, quo fas et gloria ducunt
 ultima ratio
-The last resort. Short form for the metaphor "The Last Resort of Kings and Common Men" referring to the act of declaring war; used in the names the French sniper rifle PGM Ultima Ratio and the fictional Reason weapon system. Louis XIV of France had Ultima Ratio Regum ("last argument of kings") cast on the cannons of his armies; motto of the American 1st Battalion 11th Marines; motto of the French Fourth Artillery Regiment; motto of Swedish Artilleriregementet. Also, the Third Battery of the French Third Marine Artillery Regiment has the motto Ultima Ratio Tribuni.
-
 ultimo mense (ult.)
 ultra vires
 ultra posse nemo obligatur
@@ -2215,5 +2183,3 @@ vox nihili
 vox populi
 vox populi, vox Dei
 vulpes pilum mutat, non mores
-
-

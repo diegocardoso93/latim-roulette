@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="blotter.min.js"></script>
+    <script src="channelSplitMaterial.js"></script>
+  </head>
+  <body style="text-align: center">
+    <div style="color: whitesmoke; background: #f54cf5; width: 100%; border-radius: 10px; margin-bottom: 20px; padding: 20px 0;
+    box-shadow: 7px 10px 46px 0px rgba(245,76,245,1);" onclick="doAction()">click to roll</div>
+    <div id="phraseNode"></div>
+    <div id="meaningNode"></div>
+
+    <script>
+      var phrases = [], meanings = [];
+      fetch('phrases.txt')
+      .then(function(response) {
+        return response.text();
+      })
+      .then((text) => {
+        phrases = text.split('\n');
+      });
+
+      fetch('meaning.txt')
+      .then(function(response) {
+        return response.text();
+      })
+      .then((text) => {
+        meanings = text.split('\n');
+      });
+
+      function *rotation(scope) {
+        let i = 0;
+        for (; i > 180; i--) {
+          yield scope.material.uniforms.uRotation.value = i;
+        }
+        for (; i < 361; i++) {
+          yield scope.material.uniforms.uRotation.value = i;
+        }
+        for (; i > -1; i--) {
+          yield scope.material.uniforms.uRotation.value = i;
+        }
+      }
+
+      function *offset(scope) {
+        let i = 1.0;
+        for (; i > 0.4; i-=0.004) {
+          yield scope.material.uniforms.uOffset.value = i;
+        }
+        for (; i < 0.72; i+=0.002) {
+          yield scope.material.uniforms.uOffset.value = i;
+        }
+        for (; i > 0.02; i-=0.002) {
+          yield scope.material.uniforms.uOffset.value = i;
+        }
+      }
+
+      function doAction() {
+        document.getElementById('phraseNode').innerText = '';
+
+        var phrase, idx;
+        do {
+          idx = Math.round(Math.random()*phrases.length);
+          phrase = phrases[idx];
+        } while (phrase.length === 0);
+
+        var text = new Blotter.Text(phrase, {
+          family : "serif",
+          size : 60,
+          fill : "#171717"
+        });
+
+        var material = new Blotter.ChannelSplitMaterial();
+        material.uniforms.uOffset.value = 1;
+
+        var blotter = new Blotter(material, { texts : text });
+
+        var scope = blotter.forText(text);
+
+        scope.appendTo(document.getElementById('phraseNode'));
+
+        document.getElementById('meaningNode').innerText = meanings[idx];
+
+        setTimeout(() => {
+          var r = rotation(scope);
+          var o = offset(scope);
+          setInterval(() => r.next(), 0.001);
+          setInterval(() => o.next(), 0.001);
+        }, 200);
+      }
+    </script>
+  </body>
+</html>
